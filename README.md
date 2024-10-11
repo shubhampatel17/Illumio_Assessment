@@ -35,7 +35,7 @@ A program that can parse a file containing flow log data and maps each row to a 
 
 ### 1. Clone the Repository
 
-```bash```
+```bash
 git clone <repository-url>
 cd <repository-directory>
 
