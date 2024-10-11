@@ -31,3 +31,13 @@ A program that can parse a file containing flow log data and maps each row to a 
   - **Lookup Table File**: A CSV file containing the lookup table with columns `dstport`, `protocol`, and `tag` (e.g., `lookup_table.csv`).
 
 
+## Usage
+
+### 1. Clone the Repository
+
+```bash```
+git clone <repository-url>
+cd <repository-directory>
+
+### 2. Run the Program
+
