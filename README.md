@@ -38,6 +38,14 @@ A program that can parse a file containing flow log data and maps each row to a 
 ```bash
 git clone <repository-url>
 cd <repository-directory>
+```
 
 ### 2. Run the Program
+```bash
+python flow_log_parser.py
+```
 
+### 3. Output
+
+- Tag Counts: A list of all matched tags with their respective counts, as well as the count of untagged entries.
+- Port/Protocol Combination Counts: A breakdown of each port/protocol combination encountered in the logs and their counts.
