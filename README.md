@@ -1,8 +1,8 @@
-# Flow Log Tagging Program
+# Illumio Technical Assessment
 
 ## Overview
 
-This program parses flow log data and assigns tags to each log entry based on a lookup table of port and protocol combinations. The tags are mapped using a CSV lookup table, which contains specific tags for certain destination ports and protocols. The output is a summary file that provides counts of matched tags and counts for each port/protocol combination found in the logs.
+A program that can parse a file containing flow log data and maps each row to a tag based on a lookup table. The lookup table is defined as a csv file, and it has 3 columns, dstport,protocol,tag.   The dstport and protocol combination decide what tag can be applied.
 
 ## Assumptions
 
@@ -30,10 +30,4 @@ This program parses flow log data and assigns tags to each log entry based on a 
   - **Flow Log File**: A text file containing flow log entries (e.g., `flow_logs.txt`).
   - **Lookup Table File**: A CSV file containing the lookup table with columns `dstport`, `protocol`, and `tag` (e.g., `lookup_table.csv`).
 
-## Usage
 
-### 1. Clone the Repository
-
-```bash
-git clone <repository-url>
-cd <repository-directory>
